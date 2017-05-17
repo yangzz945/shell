@@ -1,9 +1,9 @@
 #!/bin/bash
 #sex -x
-ONLINEUSER="atreconline"
-ONLINEPWD="atreconline!@#$"
-TESTUSER="atrecTest"
-TESTPWD="atrec1234Test"
+ONLINEUSER=""
+ONLINEPWD=""
+TESTUSER=""
+TESTPWD=""
 TODAY=$(date +%Y%m%d_%H%M%S)
 ThreeDaysAgo=`date -d "-3 days" +%Y%m%d_`"*"
 DelTestFileName="/opt/mysqlbak/atr/atr_test_bak_ATRTest_${ThreeDaysAgo}.sql"
