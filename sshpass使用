@@ -1,0 +1,7 @@
+
+
+password=xxx
+for ip in `cat iplist`;
+do
+sshpass -p $password ssh user@$ip "";
+done
