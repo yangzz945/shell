@@ -3,5 +3,5 @@
 password=xxx
 for ip in `cat iplist`;
 do
-sshpass -p $password ssh user@$ip "";
+sshpass -p $password ssh user@$ip " linux commands ";
 done
